@@ -29,11 +29,13 @@ export default function Guest({children, header}) {
                                 <div className="flex h-16 items-center justify-between">
                                     <div className="flex items-center">
                                         <div className="flex-shrink-0">
-                                            <img
-                                                className="w-32"
-                                                src="https://dontshootdg.s3.eu-west-2.amazonaws.com/hmuni-white.svg"
-                                                alt="HM Uni"
-                                            />
+                                            <Link href="/">
+                                                <img
+                                                    className="w-32"
+                                                    src="https://dontshootdg.s3.eu-west-2.amazonaws.com/hmuni-white.svg"
+                                                    alt="HM Uni"
+                                                />
+                                            </Link>
                                         </div>
                                         <div className="hidden md:block">
                                             <div className="ml-10 flex items-baseline space-x-4">
