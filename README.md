@@ -3,4 +3,9 @@
 ## HM-uni
 
 Harry Messenger's submission for the HouseMates code assessment task. <br>
+
+Please see comments marked Todo: for enhancements that would be built next with more time. 
+Please see comments on routes file about how I would have structured the API should I have had "carte blanche" to design the API.
+Instead, I followed the spec exactly and commented how I would change it. 
+
 Please contact me with any questions.
