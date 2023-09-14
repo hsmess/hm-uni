@@ -2,6 +2,8 @@
 
 ## HM-uni
 
+<a href="https://hmuni.hsmess.dev" target="_blank"> Link to deployed version </a>
+
 Harry Messenger's submission for the HouseMates code assessment task. <br>
 
 Please see comments marked Todo: for enhancements that would be built next with more time. 
