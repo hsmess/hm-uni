@@ -82,6 +82,9 @@ export default function Index({  }) {
                                         <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{property.address}</td>
                                         <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{property.no_rooms}</td>
                                         <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-0">
+                                            <Link href={'rooms?property=' + property.id} className="text-purple-600 hover:text-purple-900 pr-3">
+                                                View Rooms
+                                            </Link>
                                             <Link href={'property/' + property.id + '/edit'} className="text-cyan-600 hover:text-cyan-900 pr-3">
                                                 Edit<span className="sr-only"> {property.name}</span>
                                             </Link>
